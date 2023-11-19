@@ -31,7 +31,7 @@ Use the variable named movies to solve the requirement below.
 */
 
 // 1. Log the value of the title key in the first movie of the array named `movies`
-movies[0].title
+console.log(movies[0].title);
 // 2. Log the value of the title key in the last movie of the array named `movies`
 movies[2].title
 // 3. Log the value of the title key in the second movie (index 1) of the array named `movies`
