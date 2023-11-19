@@ -34,10 +34,10 @@ newUser{
 - `user.name == newUser.name;`true
 - `user.sibling == newUser.sibling;`//true
 - `user.sibling === newUser.sibling;`//true
-- `user.sibling == allBrothers;`//true
-- `user.sibling === allBrothers;`//true
-- `brothersCopy === allBrothers;`//true
-- `brothersCopy == allBrothers;`//true
+- `user.sibling == allBrothers;`//false
+- `user.sibling === allBrothers;`//false
+- `brothersCopy === allBrothers;`//false
+- `brothersCopy == allBrothers;`//false
 - `brothersCopy == user.sibling;`//true
 - `brothersCopy === user.sibling;`//true
 - `brothersCopy[0] === user.sibling[0];`//true
